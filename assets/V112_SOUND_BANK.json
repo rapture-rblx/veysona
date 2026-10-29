@@ -1,0 +1,12 @@
+{
+  "version": "1.12",
+  "sampleRate": 48000,
+  "source": "Original synthesis via tools/generate_v112_soundbank.py",
+  "added": {
+    "samples": 240,
+    "sampledInstruments": 120,
+    "midiPatterns": 48,
+    "fxChainPresets": 60
+  },
+  "limitations": "48 kHz single WAV-root sampled instruments, not realistic multisamples. Fx chains target built-in DSP, not separate VST3 binaries."
+}

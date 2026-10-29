@@ -1,0 +1,106 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Wavefolder - Sweeping Filter",
+  "category": "Wavefolder",
+  "eq": [
+    {
+      "freq": 95,
+      "gainDb": 0.45,
+      "q": 0.7,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 265,
+      "gainDb": 0.45,
+      "q": 0.7,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 620,
+      "gainDb": 0.45,
+      "q": 0.7,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 1100,
+      "gainDb": 0.45,
+      "q": 0.7,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2100,
+      "gainDb": 0.45,
+      "q": 0.7,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 4200,
+      "gainDb": 0.45,
+      "q": 0.7,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 8800,
+      "gainDb": 0.45,
+      "q": 0.7,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 12900,
+      "gainDb": 0.45,
+      "q": 0.7,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": false,
+    "thresholdDb": -22,
+    "ratio": 2.3,
+    "attackMs": 12,
+    "releaseMs": 110,
+    "makeupDb": 1.0
+  },
+  "creative": {
+    "resonatorEnabled": false,
+    "resonatorHz": 547,
+    "resonatorFeedback": 0.622,
+    "resonatorMix": 0.505,
+    "wahEnabled": false,
+    "wahRateHz": 2.39,
+    "wahDepth": 0.625,
+    "wahMix": 0.58,
+    "foldEnabled": true,
+    "foldDrive": 4.9,
+    "foldMix": 0.605,
+    "pingPongEnabled": false,
+    "pingPongDelayMs": 751,
+    "pingPongFeedback": 0.513,
+    "pingPongMix": 0.541
+  },
+  "room": {
+    "enabled": false,
+    "size": 0.4,
+    "damping": 0.56,
+    "mix": 0.15
+  },
+  "gate": {
+    "enabled": false
+  },
+  "deEsser": {
+    "enabled": false
+  },
+  "transient": {
+    "enabled": false
+  },
+  "stereoWidth": 1.0,
+  "drive": 0.0,
+  "delayMix": 0.0
+}

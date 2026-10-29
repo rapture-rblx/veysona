@@ -1,0 +1,119 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "LoFi - 03 Bright",
+  "category": "LoFi",
+  "eq": [
+    {
+      "freq": 86.4,
+      "gainDb": 1.88,
+      "q": 0.86,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 273.6,
+      "gainDb": -1.6,
+      "q": 1.36,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 1248.0,
+      "gainDb": 1.03,
+      "q": 1.01,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 4032.0,
+      "gainDb": -2.26,
+      "q": 1.46,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 700.8,
+      "gainDb": 0.0,
+      "q": 1.06,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2304.0,
+      "gainDb": 0.0,
+      "q": 1.16,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 5856.0,
+      "gainDb": -1.13,
+      "q": 1.06,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 11328.0,
+      "gainDb": 1.13,
+      "q": 0.86,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": false,
+    "thresholdDb": -19.4,
+    "ratio": 2.8,
+    "attackMs": 10.0,
+    "releaseMs": 106,
+    "makeupDb": 1.5
+  },
+  "room": {
+    "enabled": false,
+    "size": 0.54,
+    "damping": 0.48,
+    "mix": 0.19
+  },
+  "deEsser": {
+    "enabled": false,
+    "frequencyHz": 5440,
+    "thresholdDb": -29.0,
+    "reduction": 0.44
+  },
+  "transient": {
+    "enabled": false,
+    "attack": 0.33,
+    "sustain": -0.05
+  },
+  "creative": {
+    "chorusEnabled": false,
+    "chorusMix": 0.22999999999999998,
+    "chorusDepthMs": 2.7600000000000002,
+    "chorusRateHz": 0.35,
+    "tremoloEnabled": false,
+    "tremoloDepth": 0.38,
+    "tremoloPeriodBeats": 2.0,
+    "tapeEnabled": false,
+    "tapeDrive": 1.85,
+    "tapeMix": 0.38,
+    "crusherEnabled": false,
+    "crusherBits": 11,
+    "crusherHoldFrames": 4,
+    "crusherMix": 0.38,
+    "autopanEnabled": false,
+    "autopanDepth": 0.38,
+    "autopanPeriodBeats": 4.0,
+    "ringModEnabled": false,
+    "ringModFrequencyHz": 26.5,
+    "ringModMix": 0.21
+  },
+  "gate": {
+    "enabled": false,
+    "thresholdDb": -48.0,
+    "attackMs": 3.0,
+    "releaseMs": 100.0
+  },
+  "stereoWidth": 1.18,
+  "drive": 0.05,
+  "delayMix": 0.0
+}

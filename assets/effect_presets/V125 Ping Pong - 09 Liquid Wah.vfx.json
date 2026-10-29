@@ -1,0 +1,106 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Ping Pong - Liquid Wah",
+  "category": "Ping Pong",
+  "eq": [
+    {
+      "freq": 95,
+      "gainDb": -0.9,
+      "q": 1.26,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 265,
+      "gainDb": -0.9,
+      "q": 1.26,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 620,
+      "gainDb": -0.9,
+      "q": 1.26,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 1100,
+      "gainDb": -0.9,
+      "q": 1.26,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2100,
+      "gainDb": -0.9,
+      "q": 1.26,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 4200,
+      "gainDb": -0.9,
+      "q": 1.26,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 8800,
+      "gainDb": -0.9,
+      "q": 1.26,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 12900,
+      "gainDb": -0.9,
+      "q": 1.26,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": false,
+    "thresholdDb": -22,
+    "ratio": 2.3,
+    "attackMs": 12,
+    "releaseMs": 110,
+    "makeupDb": 1.0
+  },
+  "creative": {
+    "resonatorEnabled": false,
+    "resonatorHz": 436,
+    "resonatorFeedback": 0.526,
+    "resonatorMix": 0.43,
+    "wahEnabled": false,
+    "wahRateHz": 1.76,
+    "wahDepth": 0.55,
+    "wahMix": 0.49,
+    "foldEnabled": false,
+    "foldDrive": 4.0,
+    "foldMix": 0.5,
+    "pingPongEnabled": true,
+    "pingPongDelayMs": 568,
+    "pingPongFeedback": 0.414,
+    "pingPongMix": 0.448
+  },
+  "room": {
+    "enabled": true,
+    "size": 0.4,
+    "damping": 0.56,
+    "mix": 0.15
+  },
+  "gate": {
+    "enabled": false
+  },
+  "deEsser": {
+    "enabled": false
+  },
+  "transient": {
+    "enabled": false
+  },
+  "stereoWidth": 1.0,
+  "drive": 0.0,
+  "delayMix": 0.0
+}

@@ -1,0 +1,189 @@
+{
+  "files": 2033,
+  "new_v125_files": 1280,
+  "unique_exact_pcm": 2033,
+  "exact_duplicate_groups": [],
+  "very_quiet": [],
+  "almost_full_scale": [],
+  "unreadable": [],
+  "spectral_similarity_threshold": 0.9995,
+  "high_similarity_pairs_count": 44,
+  "manual_listening_candidates": [
+    [
+      1.0,
+      "Loop - Dust House 120BPM.wav",
+      "Loop - Minimal Techno 140BPM.wav"
+    ],
+    [
+      0.999961,
+      "V11 Kick - 10.wav",
+      "V12 Kick - 01.wav"
+    ],
+    [
+      0.999948,
+      "V11 Tom - 06.wav",
+      "V11 Tom - 18.wav"
+    ],
+    [
+      0.999941,
+      "V11 Tom - 07.wav",
+      "V11 Tom - 19.wav"
+    ],
+    [
+      0.999937,
+      "V11 Kick - 08.wav",
+      "V12 Kick - 11.wav"
+    ],
+    [
+      0.999936,
+      "Loop - Dream Pop 120BPM.wav",
+      "Loop - Pulse House 120BPM.wav"
+    ],
+    [
+      0.999933,
+      "V11 Kick - 31.wav",
+      "V12 Kick - 04.wav"
+    ],
+    [
+      0.999927,
+      "V11 Kick - 09.wav",
+      "V12 Kick - 06.wav"
+    ],
+    [
+      0.999924,
+      "V11 Kick - 16.wav",
+      "V12 Kick - 07.wav"
+    ],
+    [
+      0.999919,
+      "V11 Kick - 02.wav",
+      "V12 Kick - 05.wav"
+    ],
+    [
+      0.999918,
+      "V11 Tom - 24.wav",
+      "V12 Tom - 03.wav"
+    ],
+    [
+      0.999915,
+      "V11 Kick - 23.wav",
+      "V12 Kick - 08.wav"
+    ],
+    [
+      0.999914,
+      "V11 Tom - 17.wav",
+      "V12 Tom - 02.wav"
+    ],
+    [
+      0.999909,
+      "V11 Kick - 24.wav",
+      "V12 Kick - 03.wav"
+    ],
+    [
+      0.999896,
+      "V11 Kick - 36.wav",
+      "V12 Kick - 15.wav"
+    ],
+    [
+      0.999893,
+      "V11 Synth - 09.wav",
+      "V11 Synth - 17.wav"
+    ],
+    [
+      0.999885,
+      "V12 Tom - 04.wav",
+      "V12 Tom - 16.wav"
+    ],
+    [
+      0.999882,
+      "V11 Tom - 09.wav",
+      "V12 Tom - 06.wav"
+    ],
+    [
+      0.99988,
+      "V13 Pluck - Chime C.wav",
+      "V13 Pluck - Glass C.wav"
+    ],
+    [
+      0.999858,
+      "V11 Tom - 08.wav",
+      "V12 Tom - 11.wav"
+    ],
+    [
+      0.99985,
+      "V11 Kick - 17.wav",
+      "V12 Kick - 02.wav"
+    ],
+    [
+      0.999845,
+      "V11 Tom - 23.wav",
+      "V12 Tom - 08.wav"
+    ],
+    [
+      0.999844,
+      "V11 Tom - 19.wav",
+      "V12 Tom - 16.wav"
+    ],
+    [
+      0.999843,
+      "V11 Kick - 07.wav",
+      "V12 Kick - 16.wav"
+    ],
+    [
+      0.999829,
+      "V11 Tom - 02.wav",
+      "V12 Tom - 05.wav"
+    ],
+    [
+      0.999825,
+      "V11 Kick - 15.wav",
+      "V12 Kick - 12.wav"
+    ],
+    [
+      0.999787,
+      "V11 Kick - 01.wav",
+      "V12 Kick - 10.wav"
+    ],
+    [
+      0.999782,
+      "V11 Tom - 05.wav",
+      "V11 Tom - 17.wav"
+    ],
+    [
+      0.999771,
+      "V11 Tom - 12.wav",
+      "V11 Tom - 24.wav"
+    ],
+    [
+      0.999756,
+      "V11 Tom - 16.wav",
+      "V12 Tom - 07.wav"
+    ],
+    [
+      0.999718,
+      "V11 Tom - 05.wav",
+      "V12 Tom - 02.wav"
+    ],
+    [
+      0.99971,
+      "V11 Tom - 19.wav",
+      "V12 Tom - 04.wav"
+    ],
+    [
+      0.999697,
+      "V11 Tom - 11.wav",
+      "V11 Tom - 23.wav"
+    ],
+    [
+      0.999688,
+      "V11 Tom - 01.wav",
+      "V12 Tom - 10.wav"
+    ],
+    [
+      0.999683,
+      "V11 Tom - 10.wav",
+      "V11 Tom - 22.wav"
+    ]
+  ],
+  "note": "Spectral nearest-neighbour screening alone does not prove that two WAVs sound the same. Never auto-delete or rename a sample used in existing projects."
+}

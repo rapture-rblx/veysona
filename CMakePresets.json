@@ -1,0 +1,28 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {"major": 3, "minor": 22, "patch": 0},
+  "configurePresets": [
+    {
+      "name": "windows-release",
+      "displayName": "Veysona Windows x64 (JUCE + VST3)",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {"VEYSONA_BUILD_GUI": "ON", "VEYSONA_BUILD_BUNDLED_VST3": "ON"}
+    },
+    {
+      "name": "core-release",
+      "displayName": "Veysona cross-platform C++ core tests",
+      "binaryDir": "${sourceDir}/build-core",
+      "cacheVariables": {"CMAKE_BUILD_TYPE": "Release", "VEYSONA_BUILD_GUI": "OFF", "VEYSONA_BUILD_BUNDLED_VST3": "OFF"}
+    }
+  ],
+  "buildPresets": [
+    {"name": "windows-release", "configurePreset": "windows-release", "configuration": "Release"},
+    {"name": "core-release", "configurePreset": "core-release"}
+  ],
+  "testPresets": [
+    {"name": "windows-release", "configurePreset": "windows-release", "configuration": "Release", "output": {"outputOnFailure": true}},
+    {"name": "core-release", "configurePreset": "core-release", "output": {"outputOnFailure": true}}
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Guitar - Subtle",
+  "category": "Guitar",
+  "eq": [
+    {
+      "freq": 76.5,
+      "gainDb": 0.3,
+      "q": 0.7,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 252.0,
+      "gainDb": -1.2,
+      "q": 1.2,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 873.0,
+      "gainDb": 0.3,
+      "q": 1.1,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 3330.0,
+      "gainDb": -1.2,
+      "q": 1.0,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 567.0,
+      "gainDb": 0.3,
+      "q": 1.1,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2070.0,
+      "gainDb": -1.2,
+      "q": 0.9,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 7380.0,
+      "gainDb": 0.3,
+      "q": 0.8,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 11340.0,
+      "gainDb": -1.2,
+      "q": 0.7,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": false,
+    "thresholdDb": -24.0,
+    "ratio": 2.3,
+    "attackMs": 6.0,
+    "releaseMs": 90.0,
+    "makeupDb": 1.0
+  },
+  "room": {
+    "enabled": false,
+    "size": 0.32,
+    "damping": 0.48,
+    "mix": 0.13
+  },
+  "deEsser": {
+    "enabled": false,
+    "frequencyHz": 5200,
+    "thresholdDb": -32.0,
+    "reduction": 0.48
+  },
+  "transient": {
+    "enabled": false,
+    "attack": 0.12,
+    "sustain": -0.12
+  },
+  "creative": {
+    "chorusEnabled": false,
+    "chorusMix": 0.2,
+    "chorusDepthMs": 2.5,
+    "chorusRateHz": 0.28,
+    "autopanEnabled": false,
+    "autopanDepth": 0.3,
+    "autopanPeriodBeats": 4.0,
+    "crusherEnabled": false,
+    "crusherBits": 9,
+    "crusherHoldFrames": 3,
+    "crusherMix": 0.2,
+    "tremoloEnabled": false,
+    "tremoloDepth": 0.42,
+    "tremoloPeriodBeats": 2.0,
+    "ringModEnabled": false,
+    "ringModFrequencyHz": 33.0,
+    "ringModMix": 0.18,
+    "tapeEnabled": false,
+    "tapeDrive": 2.0,
+    "tapeMix": 0.28,
+    "phaserEnabled": false,
+    "phaserRateHz": 0.16,
+    "phaserDepth": 0.38,
+    "phaserFeedback": 0.1,
+    "phaserMix": 0.24,
+    "tiltEnabled": false,
+    "tiltDb": -2.6,
+    "exciterEnabled": false,
+    "exciterDrive": 2.0,
+    "exciterMix": 0.15
+  },
+  "gate": {
+    "enabled": false,
+    "thresholdDb": -48.0,
+    "attackMs": 3.0,
+    "releaseMs": 100.0
+  },
+  "stereoWidth": 1.0,
+  "drive": 0.0,
+  "delayMix": 0.0
+}

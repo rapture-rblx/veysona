@@ -1,0 +1,129 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Guitar - Warm",
+  "category": "Guitar",
+  "eq": [
+    {
+      "freq": 79.9,
+      "gainDb": 0.0,
+      "q": 0.7,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 263.2,
+      "gainDb": -0.75,
+      "q": 1.2,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 911.8000000000001,
+      "gainDb": 0.0,
+      "q": 1.1,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 3478.0,
+      "gainDb": -0.75,
+      "q": 1.0,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 592.2,
+      "gainDb": 0.0,
+      "q": 1.1,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2162.0,
+      "gainDb": -0.75,
+      "q": 0.9,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 7708.000000000001,
+      "gainDb": 0.0,
+      "q": 0.8,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 11844.0,
+      "gainDb": -0.75,
+      "q": 0.7,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": false,
+    "thresholdDb": -23.0,
+    "ratio": 2.5999999999999996,
+    "attackMs": 9.0,
+    "releaseMs": 102.0,
+    "makeupDb": 1.0
+  },
+  "room": {
+    "enabled": true,
+    "size": 0.42000000000000004,
+    "damping": 0.48,
+    "mix": 0.19
+  },
+  "deEsser": {
+    "enabled": false,
+    "frequencyHz": 5450,
+    "thresholdDb": -31.0,
+    "reduction": 0.48
+  },
+  "transient": {
+    "enabled": false,
+    "attack": 0.24,
+    "sustain": -0.06999999999999999
+  },
+  "creative": {
+    "chorusEnabled": false,
+    "chorusMix": 0.23,
+    "chorusDepthMs": 2.8,
+    "chorusRateHz": 0.34,
+    "autopanEnabled": false,
+    "autopanDepth": 0.4,
+    "autopanPeriodBeats": 4.0,
+    "crusherEnabled": false,
+    "crusherBits": 9,
+    "crusherHoldFrames": 3,
+    "crusherMix": 0.28,
+    "tremoloEnabled": false,
+    "tremoloDepth": 0.42,
+    "tremoloPeriodBeats": 2.0,
+    "ringModEnabled": false,
+    "ringModFrequencyHz": 33.0,
+    "ringModMix": 0.18,
+    "tapeEnabled": false,
+    "tapeDrive": 2.4,
+    "tapeMix": 0.34,
+    "phaserEnabled": false,
+    "phaserRateHz": 0.30000000000000004,
+    "phaserDepth": 0.51,
+    "phaserFeedback": 0.22,
+    "phaserMix": 0.33499999999999996,
+    "tiltEnabled": true,
+    "tiltDb": -0.98,
+    "exciterEnabled": false,
+    "exciterDrive": 2.55,
+    "exciterMix": 0.235
+  },
+  "gate": {
+    "enabled": false,
+    "thresholdDb": -48.0,
+    "attackMs": 3.0,
+    "releaseMs": 100.0
+  },
+  "stereoWidth": 1.04,
+  "drive": 0.012,
+  "delayMix": 0.0
+}

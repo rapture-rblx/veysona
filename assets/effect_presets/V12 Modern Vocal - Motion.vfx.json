@@ -1,0 +1,129 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Modern Vocal - Motion",
+  "category": "Modern Vocal",
+  "eq": [
+    {
+      "freq": 86.7,
+      "gainDb": 0.6,
+      "q": 0.7,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 285.6,
+      "gainDb": 1.35,
+      "q": 1.2,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 989.4,
+      "gainDb": 0.6,
+      "q": 1.1,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 3774.0,
+      "gainDb": 1.35,
+      "q": 1.0,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 642.6,
+      "gainDb": 0.6,
+      "q": 1.1,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2346.0,
+      "gainDb": 1.35,
+      "q": 0.9,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 8364.0,
+      "gainDb": 0.6,
+      "q": 0.8,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 12852.0,
+      "gainDb": 1.35,
+      "q": 0.7,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": true,
+    "thresholdDb": -21.0,
+    "ratio": 3.1999999999999997,
+    "attackMs": 15.0,
+    "releaseMs": 126.0,
+    "makeupDb": 1.0
+  },
+  "room": {
+    "enabled": false,
+    "size": 0.6200000000000001,
+    "damping": 0.48,
+    "mix": 0.31
+  },
+  "deEsser": {
+    "enabled": true,
+    "frequencyHz": 5950,
+    "thresholdDb": -29.0,
+    "reduction": 0.48
+  },
+  "transient": {
+    "enabled": false,
+    "attack": 0.48,
+    "sustain": 0.030000000000000027
+  },
+  "creative": {
+    "chorusEnabled": false,
+    "chorusMix": 0.29000000000000004,
+    "chorusDepthMs": 3.4,
+    "chorusRateHz": 0.46,
+    "autopanEnabled": false,
+    "autopanDepth": 0.6000000000000001,
+    "autopanPeriodBeats": 4.0,
+    "crusherEnabled": false,
+    "crusherBits": 9,
+    "crusherHoldFrames": 3,
+    "crusherMix": 0.44,
+    "tremoloEnabled": false,
+    "tremoloDepth": 0.42,
+    "tremoloPeriodBeats": 2.0,
+    "ringModEnabled": false,
+    "ringModFrequencyHz": 33.0,
+    "ringModMix": 0.18,
+    "tapeEnabled": false,
+    "tapeDrive": 3.2,
+    "tapeMix": 0.46,
+    "phaserEnabled": true,
+    "phaserRateHz": 0.5800000000000001,
+    "phaserDepth": 0.77,
+    "phaserFeedback": 0.45999999999999996,
+    "phaserMix": 0.525,
+    "tiltEnabled": true,
+    "tiltDb": 1.57,
+    "exciterEnabled": true,
+    "exciterDrive": 3.6500000000000004,
+    "exciterMix": 0.405
+  },
+  "gate": {
+    "enabled": false,
+    "thresholdDb": -48.0,
+    "attackMs": 3.0,
+    "releaseMs": 100.0
+  },
+  "stereoWidth": 1.12,
+  "drive": 0.036000000000000004,
+  "delayMix": 0.05
+}

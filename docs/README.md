@@ -1,0 +1,1 @@
+The image `reference-concept-not-actual-app.png` is the agreed visual target. It is **AI-generated concept art**, not a screenshot of a compiled Veysona application. Source code in `src/Main.cpp` implements a custom JUCE interface inspired by this direction, but the visual output has not yet been verified on Windows.

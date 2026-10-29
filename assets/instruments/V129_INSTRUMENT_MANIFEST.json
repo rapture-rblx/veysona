@@ -1,0 +1,678 @@
+{
+  "count": 96,
+  "license": "Original synthesis generated for Veysona; no external sample source",
+  "instruments": [
+    {
+      "file": "V129 FM Bell 01 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "31ea6438556c4af99c9b8b0fcf9daeb54b2dc7c114905e8b6ad9f1f78309f560",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 02 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "76fd6edcbbeb58687407ba30b3700d34d51f8dcbbb7f04a48d36069d53bfc825",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 03 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "16038d7a3d39404cf432f2f2822db581806e3dc4553e753c89c8eeabdea1e501",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 04 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "17b8d2121ceead31bbb31b7aa197c4294220ecc6c523067eff726f1261b16007",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 05 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "bebd4bae3979a9b8d0e52108a92c73f71879ad99a2a8554b0f048eb524a20f5e",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 06 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "c0437e7bfb352081d9a8f9e04ca6ddc08d01ee3e553637cfad246a7c7d52975f",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 07 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "6a138830e266d64be167f532c9d506d89de3a1a506d8866b1ae0e061ab424a74",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 08 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "001594e8d4071b4979d4b0f702c24c0fc65689c9156b8e67b8a6206e6d8df1b8",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 09 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "8929d7d2882176352b6bb329b9f52bd7857d5fe62905620437e1a555824c47bb",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 10 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "893b98c877d244168e72ff3599b8e826da32731ab34b307a5a5a84cb824c56e6",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 11 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "83a6613cca9610e75d68368ec5372c53c74a184b16b62b584ce884e60bb1e615",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 FM Bell 12 C4.wav",
+      "family": "FM Bell",
+      "root_midi_note": 60,
+      "sha256": "1f333f511258ef5889a8d14f1f44fb9dc1a5641c07626449fdd91d35fd266ab2",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 01 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "792f0d1f8a9ba42541d592ed427ce008c6cb7bc1a37d43d073df71e2b2c11022",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 02 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "c419d04a9d4d50f6295cc64787ce07530efa3c36136d7f1a1c7e188c1bcc8d97",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 03 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "a7622b45f0c30cfe622ad984614a51306663a1ec8937b2a1fcb1ba115629b4b7",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 04 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "c868ec4dea2cef2b59b2c1834b219daec89ef27db3fec733d7ce15e6f8f4bfec",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 05 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "1cf271853f92434ebb2d074e497b61be549a69246d9d7aa5bdc5ada7a71ebb75",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 06 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "ceb226892baf0a58201df141e33bc7d02a5fb93fb1f354df645b0466f45d8ab2",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 07 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "05b71771f2fb831178b51dca519d4b46bd2ae7ec0220751d5fe810b4c186b51d",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 08 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "6f9faa770899003c592a1c4bd9691092f13113cbe17d68f78a73008ebee50233",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 09 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "da814b3b1fbefecd0330d3d16e6c867d5a7d11b1a547eb2c5d991a2ea3e29a32",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 10 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "1c9880db0028610b032bff8d6dfe15afeb9b090d45e193de167e38fd5549a10b",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 11 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "22fa93c573d27417058866519290192ed1f95aeede72fde9b92173e1ee8cc80a",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Analog Brass 12 C4.wav",
+      "family": "Analog Brass",
+      "root_midi_note": 60,
+      "sha256": "a85b17fcd07a1ba2031438f0a151f6129a282a5ba18ee8de15f76718b3bc5fe2",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 01 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "f973cba35315da2079f5cdb77c045fe3faf251067771ba40d7f5f616b99cfb15",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 02 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "20ecc4601d42b6c6c02647d4b2072b6222416898ce8be78fb467877d849aeb33",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 03 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "e77745e0013743beccfa8287a2d488bd7f6ac410354467ce7f33fc66e466248e",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 04 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "4ba52aac5df31f5a8c68e3e28625d719ac04618612f0c61d296dda6d0d1f7a25",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 05 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "e985291c39c447a7cde5d1dd40a2be590d1b2f2e594f99e45d91d1a73ab69049",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 06 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "607ec646cd92a350b6cca141ae894dae7d7165084ba6dfd53463b44ea051c84a",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 07 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "da49832b7df289045d802afe7cecb758d67fe730ec6868d99c6ed3fdf6196733",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 08 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "e91fe6ee2db2851ef9b39e32d1f338e6d8805ad2d6ad6cf28ab47f9ff079f0ed",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 09 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "25bc20cc7f2070d617c14acb722a5390cf2393b761ea26ff09b4f9e107720dac",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 10 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "16727e847e75b7bad04f7f3462f49a3d217fad240b66622b6c9659a1feeecf1c",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 11 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "be5eae90b092cd74d195a19f1081dc856f6e36c645b78fe31d5c05c306aeb963",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Glass Pluck 12 C4.wav",
+      "family": "Glass Pluck",
+      "root_midi_note": 60,
+      "sha256": "75cfd3542fd746da9973a37781d77414a6a2c4ea04127c9945729e7e7fa8313b",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 01 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "d8154c3850a4aa9c0a956d8a26b1d026b86269b964984c95f1f53f257e87471a",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 02 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "516d2352df5ea9d376148d1501a5e4ac1229e86fbb69404075da0843fedb2d2e",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 03 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "eab67a2de89d5aeff7f8a7b9e9122c7bfb49969cb96b389980ca25847218519c",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 04 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "0f0055fcf12a946739afe3c3d1f61edf76888c2b27434ea6886cb43430fd6765",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 05 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "ebc4e388bd6ad191b17a08f1667d9224a3f37f6ade184b4066783d028f595320",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 06 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "b5fbd82ee090f9b65887facca225d473b38d533b1bad2e76f66d1365b99252a8",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 07 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "8d4e365a8dad34a2a7cacdccb6b6a4df10e95d4fd770d4bab2009002a8522f0b",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 08 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "3df6399c108761712a6184d6915f01fb10a36782903d01dc61c519cef5b0231a",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 09 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "d355c11e9a12b02ff3c7fa9d4f59318985fee19768acc5c97fcf7bb7cd32fe6b",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 10 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "1b20acc8df9b34208a30c8612b74ec482b0c96ed9bee236a4f08dc8937ad4b9c",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 11 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "26f20ec3ed9220964be90477bcdca9753ef940b17eada98f2c9b77b86ebddd86",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Warm Pad 12 C4.wav",
+      "family": "Warm Pad",
+      "root_midi_note": 60,
+      "sha256": "27fc16199995b120d7ac225fce75a05c43e3446c862852c87561f01d0a1d4556",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 01 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "7f0fa9a8c99366fa84f323e64059f09ffd635b0ece391ab9bc5c33efb2287629",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 02 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "3ce056b7defc4d43f24b04127d8003d11778e25366e4a396cd9fdac3d3d06848",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 03 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "ac4527ecbac57d7dfcadd70be7dfd6c4225463e3c54247d6c3211c08b3968ebe",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 04 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "7f06eaec177a0fb4e90c7feb59431ed068b8308aaeba6ef62f4a922fe36f3a33",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 05 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "91684451be3d75cd16d0e090626bf03eae65d74dc52a7827238f9a1b9d4a2d93",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 06 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "b9dc9c0df17c1c3921943b4bc658a2b3c7f7b32fd084d322656c4dba5e3b71e7",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 07 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "922343a62ae8ac6953c52c2c2f363e1b67caf5c08660a633b46c7d40e9b5461a",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 08 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "f6b23ea8246f26072dc54295dff18f2895ed50c9bdca9837460ca756d951e5d5",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 09 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "7c3febf6e82c5ac4056788ff589bbd0b64cf3000baf5c4cf4c5dd11610c75566",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 10 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "088fb1ccbf64fb9558005da2cc943890907d298a3bf4042a9b3e683c12f748ca",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 11 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "3b9b31c634efcc2f9828997e83fbb01e677eab1b4130aef6586f0a4e572481d7",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Reed Organ 12 C4.wav",
+      "family": "Reed Organ",
+      "root_midi_note": 60,
+      "sha256": "c73dc016ca286ee428380f2e1406ff3c8b14fbce1450964fee9787e1d024b806",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 01 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "7224a91763ee5cc6cc68d4b00219c731f0cb543a08c85e0d96786b733541d5cd",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 02 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "6630f402aec32d4e1c96a5bb4c6ef21e4105a0de098b3a1dca09978c47a45520",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 03 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "6bb326cf6c7cf36b2e6e2df01da397a9550e59ef585c6a4fd9443f44e178cfbb",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 04 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "8b2d95231ed2e7430ca77e81265ef6e1f09a16143c83260fccd896fc80470c68",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 05 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "2655a7c7fecc2ae6c109a3aec5596ed430cec879b7855e765f9573055efbf7a1",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 06 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "096853897b3612d9d9fcfdc98294bbf58eaf998a2da428e0d323c3f404f124e8",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 07 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "c021fff3bd077f7116f342202bec3341a696afa90e0f301c52444c3577222aa9",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 08 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "5977d6897d88fc658915a34eaf2369314d4b64e35892d6a612b5b909c2871ffa",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 09 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "eea36233c7559c44cf4ca3e694af00138e5784f6f16c6e38adc6a1808486a51d",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 10 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "28f5fa119b30b0c595505de01452edc01415a33323003d90330f669352c9db30",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 11 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "c20ccf8f96c8da7acccd176cd3697021c25a563cd6f5abd9cc8612261a473c3f",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Bowed Texture 12 C4.wav",
+      "family": "Bowed Texture",
+      "root_midi_note": 60,
+      "sha256": "bae047befbf7c774246907f259578c916b2f82df829596e19f9a429484b7841e",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 01 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "b71be7126d268a765a48d9bd0fb610f31d124852ca8f7ac0eacf9a877ef1692b",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 02 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "355c435a23e858f5bbab65056a7753037b4b578b242223a9a3b876010f352770",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 03 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "2c2fbead7329517fddc13cd208b5d4cf827163a91b3f1c67db921f4d260fa902",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 04 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "e86693f9a42232bc8653a905f237ee472eaa21b8978f942db94649c018be2c0a",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 05 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "814311ceea92fb8651540c5fcb695ec9d146c2add66c113f7ae18b9fbbd6d1b9",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 06 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "e3dbb15f0df9eef4d34623b1adffea667d22a61f4be27542819b0216597dcef8",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 07 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "82d2b006846e7dc83b8a232234d2a974f7f39efd3104d4e7ff87204d76aadf47",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 08 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "1896149d022d34b798fb29cde38152402ba222d1d0ad7105b337aef22c4da6eb",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 09 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "c6dc646317532d0f123ed2c0b38017dbc94b0c1660a611789006e8ff5c44283f",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 10 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "b7b5be73713fb30f2d049d9e83c23f65dc502038c7e8f2a0b5994cb83803e70e",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 11 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "5b7c4e553f8e45e5d10be187e46fbc44e5d3b7d83edc24aaf45fa22f62f758f5",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Mallet 12 C4.wav",
+      "family": "Mallet",
+      "root_midi_note": 60,
+      "sha256": "8c5f548a361d2d747632f70ea8cea633e4c26bbc028d086364f5f9a1ea5bf350",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 01 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "9bfacc00e07cf3de841e0d9b06c98e5905be5c9add074471d8885894856ba482",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 02 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "083104c1814f9f0bb0dce311423cf67628e1434ceff30b7f7e52693b329a6401",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 03 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "4768631c3eb2500edf7810759d804c6e068fb733f1c968ecfc762aa6d5ada22b",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 04 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "5798cc26e5f9886a188b2f6d123591b4d24db191ff8597f4b658529c6aefc04b",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 05 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "194c84e0298ba2d2c01ef600055d7b6aac59fdad80523e3fc0c6c0b73bc00156",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 06 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "c33bae486692edf122e634b77d935bc95ec42f55d48293df461ac9adee78cefa",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 07 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "91707670fbc7e593ff2b2ebd262c9ffe0642cd004de35699f6dd2c556f8884d6",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 08 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "b746d0fdef84b4f221f55610d4b70fd43c4ba43e36399cae12e30057ce4de658",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 09 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "5e0570ee006bfebd02db1b5fa2aa83d61ce20245868041229d1567ec4044d700",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 10 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "37ecbe8f2b4aec09ce9d93cc2534cba09fc2519dc7e3be11e953810817044162",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 11 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "3e7f1eaf2c1000cf6460fcd02ccfe21ed9f4360416d1c4547fac7da2756a8b29",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    },
+    {
+      "file": "V129 Digital Keys 12 C4.wav",
+      "family": "Digital Keys",
+      "root_midi_note": 60,
+      "sha256": "c07a697905f39631554448a8c0d572064ba63a1b6360a9f8282725790f280ff4",
+      "generation": "Original algorithmic synthesis, no third-party recordings"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Bass - 06 Space",
+  "category": "Bass",
+  "eq": [
+    {
+      "freq": 98.55,
+      "gainDb": 3.2,
+      "q": 0.86,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 312.07,
+      "gainDb": -2.72,
+      "q": 1.36,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 1423.5,
+      "gainDb": 1.76,
+      "q": 1.01,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 4599.0,
+      "gainDb": -3.84,
+      "q": 1.46,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 799.35,
+      "gainDb": 0.0,
+      "q": 1.06,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2628.0,
+      "gainDb": 0.0,
+      "q": 1.16,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 6679.5,
+      "gainDb": -1.92,
+      "q": 1.06,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 12921.0,
+      "gainDb": 1.92,
+      "q": 0.86,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": true,
+    "thresholdDb": -15.5,
+    "ratio": 2.4,
+    "attackMs": 19.0,
+    "releaseMs": 160,
+    "makeupDb": 1.5
+  },
+  "room": {
+    "enabled": false,
+    "size": 0.81,
+    "damping": 0.48,
+    "mix": 0.29500000000000004
+  },
+  "deEsser": {
+    "enabled": false,
+    "frequencyHz": 5950,
+    "thresholdDb": -26.0,
+    "reduction": 0.44
+  },
+  "transient": {
+    "enabled": false,
+    "attack": 0.615,
+    "sustain": 0.11500000000000002
+  },
+  "creative": {
+    "chorusEnabled": false,
+    "chorusMix": 0.305,
+    "chorusDepthMs": 3.6000000000000005,
+    "chorusRateHz": 0.53,
+    "tremoloEnabled": false,
+    "tremoloDepth": 0.62,
+    "tremoloPeriodBeats": 2.0,
+    "tapeEnabled": false,
+    "tapeDrive": 2.75,
+    "tapeMix": 0.62,
+    "crusherEnabled": false,
+    "crusherBits": 11,
+    "crusherHoldFrames": 4,
+    "crusherMix": 0.56,
+    "autopanEnabled": false,
+    "autopanDepth": 0.6499999999999999,
+    "autopanPeriodBeats": 4.0,
+    "ringModEnabled": false,
+    "ringModFrequencyHz": 26.5,
+    "ringModMix": 0.21
+  },
+  "gate": {
+    "enabled": false,
+    "thresholdDb": -48.0,
+    "attackMs": 3.0,
+    "releaseMs": 100.0
+  },
+  "stereoWidth": 1.0,
+  "drive": 0.125,
+  "delayMix": 0.12
+}

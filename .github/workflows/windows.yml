@@ -1,0 +1,86 @@
+name: Windows x64 - Veysona Studio 1.31 Installer
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-windows:
+    runs-on: windows-2022
+    timeout-minutes: 110
+    steps:
+      - name: Check out exact source revision
+        uses: actions/checkout@v4
+      - name: Install Inno Setup 6 if required
+        shell: pwsh
+        run: |
+          $iscc = Join-Path ${env:ProgramFiles(x86)} 'Inno Setup 6\ISCC.exe'
+          if (!(Test-Path $iscc)) {
+            choco install innosetup --yes --no-progress --limit-output
+            if ($LASTEXITCODE -ne 0) { throw 'Inno Setup install failed' }
+          }
+      - name: Configure JUCE 8 / Visual Studio 2022 x64
+        shell: pwsh
+        run: |
+          cmake -S . -B build -G 'Visual Studio 17 2022' -A x64 -DVEYSONA_BUILD_GUI=ON -DVEYSONA_BUILD_BUNDLED_VST3=ON
+          if ($LASTEXITCODE -ne 0) { throw 'CMake configuration failed' }
+      - name: Build DAW and all bundled VST3 processors
+        shell: pwsh
+        run: |
+          cmake --build build --config Release --parallel 4
+          if ($LASTEXITCODE -ne 0) { throw 'Native application or VST3 build failed' }
+      - name: Run C++ core, DSP and asset regression suites
+        shell: pwsh
+        run: |
+          ctest --test-dir build -C Release --output-on-failure
+          if ($LASTEXITCODE -ne 0) { throw 'Audio test suite failed' }
+      - name: Smoke-launch Windows desktop application
+        shell: pwsh
+        run: |
+          $exe = (Resolve-Path 'build/Veysona_artefacts/Release/Veysona.exe').Path
+          $proc = Start-Process -FilePath $exe -WorkingDirectory (Split-Path $exe) -PassThru
+          try {
+            Start-Sleep -Seconds 7
+            $proc.Refresh()
+            if ($proc.HasExited) { throw "Veysona unexpectedly exited during startup with code $($proc.ExitCode)" }
+          } finally {
+            if (!$proc.HasExited) { Stop-Process -Id $proc.Id -Force }
+          }
+      - name: Stage and compile branded setup + portable ZIP
+        shell: pwsh
+        run: ./scripts/build_installer.ps1 -NoBuild
+      - name: Verify setup files and make SHA256 checksums
+        shell: pwsh
+        run: |
+          $outputs = @('dist/Veysona-Studio-Setup-1.31.0.exe', 'dist/Veysona-Studio-1.31.0-Portable-Windows-x64.zip')
+          foreach ($path in $outputs) { if (!(Test-Path $path)) { throw "Missing release artifact: $path" } }
+          $checksums = foreach ($path in $outputs) {
+            $hash = Get-FileHash -LiteralPath $path -Algorithm SHA256
+            "{0} *{1}" -f $hash.Hash, (Split-Path $path -Leaf)
+          }
+          $checksums | Set-Content -Path dist/SHA256SUMS.txt -Encoding utf8
+          Get-Content dist/SHA256SUMS.txt
+      - name: Upload Windows installer and portable application
+        uses: actions/upload-artifact@v4
+        with:
+          name: Veysona-Studio-v1.31-Windows-x64-UNSIGNED-PREVIEW
+          path: |
+            dist/Veysona-Studio-Setup-1.31.0.exe
+            dist/Veysona-Studio-1.31.0-Portable-Windows-x64.zip
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30
+      - name: Upload failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Veysona-build-diagnostics
+          path: |
+            build/CMakeFiles/CMakeConfigureLog.yaml
+            build/Testing/Temporary/LastTest.log
+          if-no-files-found: ignore

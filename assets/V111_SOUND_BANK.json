@@ -1,0 +1,9 @@
+{
+  "version": "1.11.0",
+  "newSamples": 356,
+  "newSampledInstruments": 192,
+  "newMidiPatterns": 48,
+  "newEffectChainPresets": 72,
+  "source": "original deterministic mathematical synthesis",
+  "limitations": "Single-root sampled instruments; not multisampled acoustic recordings or VST3 binaries"
+}

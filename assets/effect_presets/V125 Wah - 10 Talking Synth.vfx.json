@@ -1,0 +1,106 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Wah - Talking Synth",
+  "category": "Wah",
+  "eq": [
+    {
+      "freq": 95,
+      "gainDb": -0.45,
+      "q": 1.33,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 265,
+      "gainDb": -0.45,
+      "q": 1.33,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 620,
+      "gainDb": -0.45,
+      "q": 1.33,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 1100,
+      "gainDb": -0.45,
+      "q": 1.33,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2100,
+      "gainDb": -0.45,
+      "q": 1.33,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 4200,
+      "gainDb": -0.45,
+      "q": 1.33,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 8800,
+      "gainDb": -0.45,
+      "q": 1.33,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 12900,
+      "gainDb": -0.45,
+      "q": 1.33,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": false,
+    "thresholdDb": -22,
+    "ratio": 2.3,
+    "attackMs": 12,
+    "releaseMs": 110,
+    "makeupDb": 1.0
+  },
+  "creative": {
+    "resonatorEnabled": false,
+    "resonatorHz": 473,
+    "resonatorFeedback": 0.558,
+    "resonatorMix": 0.455,
+    "wahEnabled": true,
+    "wahRateHz": 1.97,
+    "wahDepth": 0.575,
+    "wahMix": 0.52,
+    "foldEnabled": false,
+    "foldDrive": 4.3,
+    "foldMix": 0.535,
+    "pingPongEnabled": false,
+    "pingPongDelayMs": 629,
+    "pingPongFeedback": 0.447,
+    "pingPongMix": 0.479
+  },
+  "room": {
+    "enabled": false,
+    "size": 0.4,
+    "damping": 0.56,
+    "mix": 0.15
+  },
+  "gate": {
+    "enabled": false
+  },
+  "deEsser": {
+    "enabled": false
+  },
+  "transient": {
+    "enabled": false
+  },
+  "stereoWidth": 1.0,
+  "drive": 0.0,
+  "delayMix": 0.0
+}

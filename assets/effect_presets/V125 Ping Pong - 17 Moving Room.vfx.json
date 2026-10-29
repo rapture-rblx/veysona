@@ -1,0 +1,106 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Ping Pong - Moving Room",
+  "category": "Ping Pong",
+  "eq": [
+    {
+      "freq": 95,
+      "gainDb": -0.45,
+      "q": 1.05,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 265,
+      "gainDb": -0.45,
+      "q": 1.05,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 620,
+      "gainDb": -0.45,
+      "q": 1.05,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 1100,
+      "gainDb": -0.45,
+      "q": 1.05,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2100,
+      "gainDb": -0.45,
+      "q": 1.05,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 4200,
+      "gainDb": -0.45,
+      "q": 1.05,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 8800,
+      "gainDb": -0.45,
+      "q": 1.05,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 12900,
+      "gainDb": -0.45,
+      "q": 1.05,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": false,
+    "thresholdDb": -22,
+    "ratio": 2.3,
+    "attackMs": 12,
+    "releaseMs": 110,
+    "makeupDb": 1.0
+  },
+  "creative": {
+    "resonatorEnabled": false,
+    "resonatorHz": 732,
+    "resonatorFeedback": 0.782,
+    "resonatorMix": 0.63,
+    "wahEnabled": false,
+    "wahRateHz": 3.44,
+    "wahDepth": 0.75,
+    "wahMix": 0.73,
+    "foldEnabled": false,
+    "foldDrive": 6.4,
+    "foldMix": 0.78,
+    "pingPongEnabled": true,
+    "pingPongDelayMs": 1056,
+    "pingPongFeedback": 0.678,
+    "pingPongMix": 0.696
+  },
+  "room": {
+    "enabled": true,
+    "size": 0.4,
+    "damping": 0.56,
+    "mix": 0.15
+  },
+  "gate": {
+    "enabled": false
+  },
+  "deEsser": {
+    "enabled": false
+  },
+  "transient": {
+    "enabled": false
+  },
+  "stereoWidth": 1.0,
+  "drive": 0.0,
+  "delayMix": 0.0
+}

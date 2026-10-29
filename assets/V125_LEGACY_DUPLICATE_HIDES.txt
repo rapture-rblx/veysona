@@ -1,0 +1,39 @@
+# Browser-only exclusions of near-identical legacy waveforms
+# Source audio files are preserved in assets/samples for backwards compatibility.
+# Candidate pairs required spectral similarity > 0.995, equal sample rate/length,
+# and normalized same-alignment waveform correlation > 0.99.
+# These are heuristic matches, not a human listening evaluation.
+V11 Tom - 16.wav
+V11 Tom - 17.wav
+V11 Tom - 18.wav
+V11 Tom - 19.wav
+V11 Tom - 24.wav
+V12 Kick - 02.wav
+V12 Kick - 03.wav
+V12 Kick - 04.wav
+V12 Kick - 05.wav
+V12 Kick - 06.wav
+V12 Kick - 07.wav
+V12 Kick - 08.wav
+V12 Kick - 09.wav
+V12 Kick - 11.wav
+V12 Kick - 12.wav
+V12 Kick - 14.wav
+V12 Kick - 15.wav
+V12 Kick - 16.wav
+V12 Kick - 18.wav
+V12 Kick - 19.wav
+V12 Kick - 20.wav
+V12 Kick - 21.wav
+V12 Kick - 22.wav
+V12 Kick - 24.wav
+V12 Tom - 02.wav
+V12 Tom - 03.wav
+V12 Tom - 05.wav
+V12 Tom - 06.wav
+V12 Tom - 07.wav
+V12 Tom - 08.wav
+V12 Tom - 10.wav
+V12 Tom - 11.wav
+V12 Tom - 12.wav
+V12 Tom - 16.wav

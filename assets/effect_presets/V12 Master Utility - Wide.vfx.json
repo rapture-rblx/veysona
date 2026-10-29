@@ -1,0 +1,129 @@
+{
+  "format": "veysona-fx-v1",
+  "name": "Master Utility - Wide",
+  "category": "Master Utility",
+  "eq": [
+    {
+      "freq": 83.3,
+      "gainDb": 0.0,
+      "q": 0.7,
+      "type": 0,
+      "enabled": true
+    },
+    {
+      "freq": 274.4,
+      "gainDb": 0.0,
+      "q": 1.2,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 950.6,
+      "gainDb": 0.0,
+      "q": 1.1,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 3626.0,
+      "gainDb": 0.0,
+      "q": 1.0,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 617.4,
+      "gainDb": 0.0,
+      "q": 1.1,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 2254.0,
+      "gainDb": 0.0,
+      "q": 0.9,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 8036.0,
+      "gainDb": 0.0,
+      "q": 0.8,
+      "type": 1,
+      "enabled": true
+    },
+    {
+      "freq": 12348.0,
+      "gainDb": 0.0,
+      "q": 0.7,
+      "type": 2,
+      "enabled": true
+    }
+  ],
+  "compressor": {
+    "enabled": false,
+    "thresholdDb": -22.0,
+    "ratio": 2.9,
+    "attackMs": 12.0,
+    "releaseMs": 114.0,
+    "makeupDb": 1.0
+  },
+  "room": {
+    "enabled": false,
+    "size": 0.52,
+    "damping": 0.48,
+    "mix": 0.25
+  },
+  "deEsser": {
+    "enabled": false,
+    "frequencyHz": 5700,
+    "thresholdDb": -30.0,
+    "reduction": 0.48
+  },
+  "transient": {
+    "enabled": false,
+    "attack": 0.36,
+    "sustain": -0.01999999999999999
+  },
+  "creative": {
+    "chorusEnabled": false,
+    "chorusMix": 0.26,
+    "chorusDepthMs": 3.1,
+    "chorusRateHz": 0.4,
+    "autopanEnabled": false,
+    "autopanDepth": 0.5,
+    "autopanPeriodBeats": 4.0,
+    "crusherEnabled": false,
+    "crusherBits": 9,
+    "crusherHoldFrames": 3,
+    "crusherMix": 0.36,
+    "tremoloEnabled": false,
+    "tremoloDepth": 0.42,
+    "tremoloPeriodBeats": 2.0,
+    "ringModEnabled": false,
+    "ringModFrequencyHz": 33.0,
+    "ringModMix": 0.18,
+    "tapeEnabled": false,
+    "tapeDrive": 2.8,
+    "tapeMix": 0.4,
+    "phaserEnabled": true,
+    "phaserRateHz": 0.44000000000000006,
+    "phaserDepth": 0.64,
+    "phaserFeedback": 0.33999999999999997,
+    "phaserMix": 0.43,
+    "tiltEnabled": false,
+    "tiltDb": 0.65,
+    "exciterEnabled": false,
+    "exciterDrive": 3.1,
+    "exciterMix": 0.32
+  },
+  "gate": {
+    "enabled": false,
+    "thresholdDb": -48.0,
+    "attackMs": 3.0,
+    "releaseMs": 100.0
+  },
+  "stereoWidth": 1.0,
+  "drive": 0.0,
+  "delayMix": 0.0
+}
