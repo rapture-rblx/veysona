@@ -1,9 +1,23 @@
-# Restores the bundled sound bank bit-for-bit from FLAC into WAV before compilation.
+﻿# Restores the bundled sound bank bit-for-bit from FLAC into WAV before compilation.
 # Normal source checkouts already have WAVs and need no download.
 [CmdletBinding()]
 param()
 Set-StrictMode -Version Latest
 $ErrorActionPreference='Stop'
+# PowerShell compatibility: avoid Get-FileHash, which may be unavailable in
+# restricted Windows runner environments. Use .NET SHA256 instead.
+function Get-FileHash {
+ [CmdletBinding()]
+ param([Parameter(Mandatory=$true)][string]$LiteralPath,[string]$Algorithm='SHA256')
+ if ($Algorithm -ne 'SHA256') { throw 'Only SHA256 is supported by this restore script.' }
+ $stream=[System.IO.File]::OpenRead($LiteralPath)
+ $sha=[System.Security.Cryptography.SHA256]::Create()
+ try {
+  $hashBytes=$sha.ComputeHash($stream)
+  [pscustomobject]@{ Hash=([System.BitConverter]::ToString($hashBytes)).Replace('-','') }
+ } finally { $sha.Dispose(); $stream.Dispose() }
+}
+
 $root=(Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $packed=Join-Path $root 'assets\packed_soundbank'
 $manifest=Join-Path $packed 'sha256_manifest.tsv'
